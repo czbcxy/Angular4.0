@@ -1,4 +1,4 @@
-.product{
+.chat{
     background: #19c23c;
     height: 300px;
     width: 70%;
@@ -6,6 +6,6 @@
     font-family: "Bodoni 72 Oldstyle";
     float: left;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }

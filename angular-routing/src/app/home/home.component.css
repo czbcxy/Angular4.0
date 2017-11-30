@@ -1,0 +1,11 @@
+.home{
+    background: #19c23c;
+    height: 300px;
+    width: 70%;
+    font-style: italic;
+    font-family: "Bodoni 72 Oldstyle";
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

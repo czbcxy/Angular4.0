@@ -29,3 +29,17 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+##重定向 app--> app.routing.module.ts -->const routes: Routes => 下 配置
+ {path: '',redirectTo: '/home', pathMatch: 'full'},
+
+##子路由
+![avatar](../images/子路由.jpg)
+
+##节点标识（个人理解）
+<router-outlet></router-outlet>可无限叠加
+http://www.cnblogs.com/sghy/p/6951083.html
+
+
+	
