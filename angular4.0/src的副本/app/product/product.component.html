@@ -1,0 +1,11 @@
+<div *ngFor="let product of products"  class="col-md-4 col-sm-4 col-lg-4">
+    <div class="thumbnail">
+       <img [src]='imgURL'> <!-- 属性绑定 -->
+      <div class="pull-right">{{product.price}}元</div> <!-- 值绑定 -->
+      <h4><a>{{product.title}}</a></h4>
+      <p>{{product.desc}}</p>
+      <div>
+          <app-start [rating]="product.rating"></app-start>
+        </div>
+     </div>
+  </div>

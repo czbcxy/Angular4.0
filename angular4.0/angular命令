@@ -1,0 +1,5 @@
+创建项目 ng new 项目名
+创建引入外包 npm install jquery --save 
+angular识别外包 npm install @types/jquery --save-dev
+创建组件  ng g component 组建名
+

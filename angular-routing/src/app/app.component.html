@@ -1,0 +1,8 @@
+<a [routerLink]="['/']">主页</a>
+<!-- 从商品传递拿到参数 -->
+<!--<a [routerLink]="['/product']" [queryParams]="{id: 1}">商品详情</a>-->
+<!--从url拿到参数-->
+<a [routerLink]="['/product',1]">商品详情</a>
+<!-- 事件绑定 -->
+<button type="button" value="商品详情" (click) = "toProductDetails()">商品详情</button>
+<router-outlet></router-outlet>
