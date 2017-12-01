@@ -1,23 +1,24 @@
-import { Component, OnInit } from '@angular/core';
-import { Input } from '@angular/core/src/metadata/directives';
+import {Component, OnInit} from '@angular/core';
+import {Input} from '@angular/core/src/metadata/directives';
 
 @Component({
-  selector: 'app-start',
-  templateUrl: './start.component.html',
-  styleUrls: ['./start.component.css']
+    selector: 'app-start',
+    templateUrl: './start.component.html',
+    styleUrls: ['./start.component.css']
 })
 export class StartComponent implements OnInit {
 
 
-  // @Input()
-  // private rating: number = 0;
+    @Input()
+    private rating: number = 0;
 
-  private start: boolean[];
+    private start: boolean[];
 
-  constructor() { }
+    constructor() {
+    }
 
-  ngOnInit() {
-    this.start = [false, true, true, true, true];
-  }
+    ngOnInit() {
+        this.start = [false, true, true, true, true];
+    }
 
 }
